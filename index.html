@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Financial Literacy Projects | Enactus UTRGV</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="navbar">
+                <a href="index.html" class="logo">
+                    <img src="data:image/png;base64,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" alt="Enactus Logo" class="logo-img">
+                </a>
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="#" class="active">Financial Literacy</a></li>
+                        <li><a href="events.html">Events</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="faq.html">FAQ</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" style="background: linear-gradient(rgba(81, 83, 86, 0.7), rgba(81, 83, 86, 0.7)), url('https://assets.onecompiler.app/43hc69vrc/43hprfgt5/FL%20Summit.jpeg') center/cover no-repeat;">
+        <div class="hero-content">
+            <h1>Financial Literacy Projects</h1>
+            <p>Empowering our community with essential financial knowledge and skills</p>
+        </div>
+    </section>
+
+    <!-- Table of Contents -->
+    <div class="container">
+        <div class="toc">
+            <h2>On This Page:</h2>
+            <div class="toc-list">
+                <a href="#blackboard" class="toc-item">Blackboard Course</a>
+                <a href="#speaker" class="toc-item">Speaker Series</a>
+                <a href="#fajitas" class="toc-item">Fajitas for Finance</a>
+                <a href="#telenovela" class="toc-item">Telenovela Series</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Introduction Section -->
+    <section class="section">
+        <div class="container">
+            <p>At Enactus UTRGV, we're committed to increasing financial literacy in our community through four key initiatives. These projects are designed to be entrepreneurial, sustainable, and scalable, with the goal of creating lasting positive impact.</p>
+        </div>
+    </section>
+
+    <!-- Blackboard Course Section -->
+    <section id="blackboard" class="project-section">
+        <div class="container">
+            <div class="project-container">
+                <div class="project-image">
+                    <img src="https://assets.onecompiler.app/43hc69vrc/43hprfgk5/FLBB.png" alt="Student studying financial literacy on Blackboard">
+                </div>
+                <div class="project-content">
+                    <h2 class="project-title">Blackboard Course</h2>
+                    <h3 class="project-subtitle">Online Financial Education</h3>
+                    <p class="project-description">Our Blackboard Course offers comprehensive financial education to UTRGV students in a convenient online format. The course covers essential topics that every college student needs to know about personal finance.</p>
+                    
+                    <ul class="project-features">
+                        <li>Basic budgeting and saving strategies</li>
+                        <li>Understanding credit and managing debt</li>
+                        <li>Introduction to investing</li>
+                        <li>Student loan management</li>
+                        <li>Self-paced learning with assessments</li>
+                    </ul>
+                    
+                    <div class="testimonial">
+                        <p class="testimonial-text">"The Blackboard Course helped me understand how to start budgeting while in college. Now I feel more confident about managing my finances."</p>
+                        <p class="testimonial-author">- UTRGV Student</p>
+                    </div>
+                    
+                    <p>Students can access this course through their Blackboard account. It includes videos, readings, quizzes, and practical exercises designed to build financial skills.</p>
+                    
+                    <a href="#" class="btn">Enroll in the Course</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Speaker Series Section -->
+    <section id="speaker" class="project-section">
+        <div class="container">
+            <div class="project-container">
+                <div class="project-content">
+                    <h2 class="project-title">Speaker Series</h2>
+                    <h3 class="project-subtitle">Learn from Financial Experts</h3>
+                    <p class="project-description">Our Speaker Series brings financial professionals and experts to campus for informative presentations and Q&A sessions. These events provide students and community members the opportunity to learn from industry leaders and ask questions specific to their situation.</p>
+                    
+                    <ul class="project-features">
+                        <li>Regular events throughout the academic year</li>
+                        <li>Diverse range of financial topics covered</li>
+                        <li>Networking opportunities with professionals</li>
+                        <li>Open to all students and community members</li>
+                        <li>Recorded sessions available through our Resources page</li>
+                    </ul>
+                    
+                    <div class="testimonial">
+                        <p class="testimonial-text">"The investment basics presentation helped me understand how to start building wealth even as a student with limited income."</p>
+                        <p class="testimonial-author">- Attendee</p>
+                    </div>
+                    
+                    <p>Past speakers have included representatives from State Farm Insurance, local banks, real estate professionals, investment advisors, and successful entrepreneurs.</p>
+                    
+                    <a href="#" class="btn">Upcoming Speakers</a>
+                </div>
+                <div class="project-image">
+                    <img src="https://assets.onecompiler.app/43hc69vrc/43hprfgk5/FL%20Summit.jpeg" alt="Financial expert giving a presentation">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Fajitas for Finance Section -->
+    <section id="fajitas" class="project-section">
+        <div class="container">
+            <div class="project-container">
+                <div class="project-image">
+                    <img src="/api/placeholder/600/400" alt="Fajitas for Finance community event">
+                </div>
+                <div class="project-content">
+                    <h2 class="project-title">Fajitas for Finance</h2>
+                    <h3 class="project-subtitle">Financial Education with a Flavor</h3>
+                    <p class="project-description">Fajitas for Finance brings financial literacy education directly to community organizations in a format that's engaging and accessible. These events combine delicious food with practical financial knowledge in a relaxed setting.</p>
+                    
+                    <ul class="project-features">
+                        <li>Interactive workshops at community locations</li>
+                        <li>Content customized to audience needs</li>
+                        <li>Bilingual presentation options (English/Spanish)</li>
+                        <li>Take-home resources and materials</li>
+                        <li>Free meal for all participants</li>
+                    </ul>
+                    
+                    <div class="testimonial">
+                        <p class="testimonial-text">"Our church group learned so much from the Fajitas for Finance workshop. The presenters made complex topics easy to understand, and the food was fantastic!"</p>
+                        <p class="testimonial-author">- Community Member</p>
+                    </div>
+                    
+                    <p>Fajitas for Finance is available to community groups, churches, schools, and other organizations throughout the Rio Grande Valley. Our team will work with you to tailor the content to your group's specific needs and interests.</p>
+                    
+                    <a href="#" class="btn">Request an Event</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Telenovela Series Section -->
+    <section id="telenovela" class="project-section">
+        <div class="container">
+            <div class="project-container">
+                <div class="project-content">
+                    <h2 class="project-title">Telenovela Series</h2>
+                    <h3 class="project-subtitle">Financial Education through Storytelling</h3>
+                    <p class="project-description">Our Telenovela Series presents financial concepts through engaging short videos inspired by the popular Latin American dramatic format. This innovative approach makes financial education more relatable and memorable, especially for Spanish-speaking audiences.</p>
+                    
+                    <ul class="project-features">
+                        <li>Engaging storylines that illustrate financial concepts</li>
+                        <li>Available in both English and Spanish</li>
+                        <li>Short episodes ideal for social media sharing</li>
+                        <li>Covers topics like budgeting, credit, and saving</li>
+                        <li>Created by UTRGV students</li>
+                    </ul>
+                    
+                    <div class="testimonial">
+                        <p class="testimonial-text">"I shared the telenovela episodes with my parents who never had formal financial education. They found it entertaining and learned a lot!"</p>
+                        <p class="testimonial-author">- UTRGV Student</p>
+                    </div>
+                    
+                    <p>The Telenovela Series transforms complex financial topics into accessible, entertaining content that resonates with viewers of all ages. Each episode includes practical tips that viewers can apply to their own financial situations.</p>
+                    
+                    <a href="#" class="btn">Watch the Series</a>
+                </div>
+                <div class="project-image">
+                    <img src="/api/placeholder/600/400" alt="Scene from financial literacy telenovela">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call to Action Section -->
+    <section class="cta">
+        <div class="container">
+            <h2>Get Involved with Our Financial Literacy Projects</h2>
+            <p>Whether you want to improve your own financial knowledge or help bring these resources to your community, we invite you to get involved.</p>
+            <a href="#" class="btn btn-white">Contact Us</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <h3>Enactus UTRGV</h3>
+                    <div class="footer-info">
+                        <p>Creating sustainable economic growth through entrepreneurial action.</p>
+                        <p>rgvenactus@gmail.com</p>
+                    </div>
+                    <div class="social-links">
+                        <a href="#"><i>f</i></a>
+                        <a href="#"><i>t</i></a>
+                        <a href="#"><i>in</i></a>
+                        <a href="#"><i>ig</i></a>
+                    </div>
+                </div>
+                <div class="footer-column">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Financial Literacy</a></li>
+                        <li><a href="#">Events</a></li>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">FAQ</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Connect With Us</h3>
+                    <div class="social-links">
+                        <a href="#"><i>f</i></a>
+                        <a href="#"><i>t</i></a>
+                        <a href="#"><i>in</i></a>
+                        <a href="#"><i>ig</i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2025 Enactus UTRGV. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
